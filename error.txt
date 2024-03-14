@@ -1,0 +1,137 @@
+17:36:37.469 [databricks-jdbc-chunks-downloader-1] DEBUG com.databricks.jdbc.core.ArrowResultChunk -- No encryption headers present for chunk index [0] and statement [01eeda45-5e8f-1b10-9518-ababc15c96ae]
+
+17:36:37.470 [databricks-jdbc-chunks-downloader-1] DEBUG com.databricks.jdbc.client.http.DatabricksHttpClient -- Executing HTTP request [https://cfx-dev-root-bucket-databricks.s3.eu-west-1.amazonaws.com/ireland-prod/3430954703406830.jobs/sql/extended/results_2024-03-05T17%3A36%3A37Z_ae25402c-f252-4a71-ac4c-2fadae4cc82d?X-Amz-Security-Token=FwoGZXIvYXdzEJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDOma2w2tZg8H%2F%2FiNJiL1AswbM4J6IiWEHL9qQNPq2G3%2FPOPj7nRZWbIDw7iZHzmFvF818mgQfWoVj4%2Fn0x89OQglZ8cdG1I9ZKWJiTXWdjgX2OZR8hkmwJqfk6uPPDvVIKmuntx%2B%2FIwGu4CgWoSgbtokG%2FxBe49NTjTFef%2BmZjoToBQ9SB%2FZBVNnSMhusw8gUjDAihyYvBjlm%2BbIc17g%2FrX%2BYumpTuJh4lVcSOLtRJN5yQqCKh%2B4IwpqRkyKmcYEEQ%2BW0nppgRKyzH46PZvriybFnhwekDs8sTooSH%2Fc4XH4%2BSwkgOfGan6kJIL2O%2Bv%2FkWxC3OPdqwhpODNZnWGKevtc2bXw2DhKVTtsILiJMO794YGCVJkrKaedHx%2Bi0KpYj4ZB65Wqwm3OBE0JSHXvEaAKEmdGlCf7aGlygLD7gOfud%2FXH6QSPTwyftGdnJb0SaQzrWMfggpTEHq%2BH0r62E6zJ97QKWGBwKAhd0HzqF%2BNGqEXD1F72U3GqnDd1kjVPKP%2BhE3ko2O2XrwYydZdKrCKou4um8NdjvIpCArSKW6iENui0qUz9PqtdTtZcfzvl%2BCaW2fOKWBoGW8mtMOPN%2BpVTCeqTx3eCfdj1PtDPFKV23onj%2F5bX3xQgfWSsx5hJ3L8wP0xYEQtxu5XXXSLFimramVZvjAzsGSK0iIJfZZEaiw%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240304T163637Z&X-Amz-SignedHeaders=host&X-Amz-Expires=899&X-Amz-Credential=ASIAWA6KKHEJHLLT7VVW%2F20240304%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=4610f9c33c24b592dd47bd26950701fe72697c9bff557c1135140205e55cc25d]
+
+17:36:37.473 [main] DEBUG com.databricks.jdbc.core.DatabricksStatement -- Result retrieved successfullycom.databricks.jdbc.core.DatabricksResultSet@5cad8b7d
+
+17:36:37.473 [main] DEBUG com.databricks.jdbc.core.DatabricksConnection -- public int getTransactionIsolation()
+
+17:36:37.473 [main] DEBUG com.databricks.jdbc.core.DatabricksConnection -- public boolean isClosed()
+
+17:36:37.473 [main] DEBUG com.databricks.jdbc.core.DatabricksSession -- public boolean isOpen()
+
+17:36:37.474 [main] INFO com.zaxxer.hikari.pool.HikariPool -- HikariPool-1 - Added connection com.databricks.jdbc.core.DatabricksConnection@66b72664
+
+17:36:37.475 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: default
+
+17:36:37.475 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+
+17:36:37.475 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection request: [route: {tls}->http://proxy-sgt.si.socgen:8080->https://cfx-dev-root-bucket-databricks.s3.eu-west-1.amazonaws.com:443][total available: 0; route allocated: 0 of 1000; total allocated: 0 of 1000]
+
+17:36:37.475 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection leased: [id: 1][route: {tls}->http://proxy-sgt.si.socgen:8080->https://cfx-dev-root-bucket-databricks.s3.eu-west-1.amazonaws.com:443][total available: 0; route allocated: 1 of 1000; total allocated: 1 of 1000]
+
+17:36:37.475 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.impl.execchain.MainClientExec -- Opening connection {tls}->http://proxy-sgt.si.socgen:8080->https://cfx-dev-root-bucket-databricks.s3.eu-west-1.amazonaws.com:443
+
+17:36:37.476 [main] INFO com.zaxxer.hikari.HikariDataSource -- HikariPool-1 - Start completed.
+
+17:36:37.479 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator -- Connecting to proxy-sgt.si.socgen/192.67.129.20:8080
+
+17:36:37.479 [main] DEBUG com.databricks.jdbc.core.DatabricksConnection -- public Statement createStatement()
+
+17:36:37.480 [main] DEBUG com.databricks.jdbc.core.DatabricksStatement -- DatabricksResultSet executeInternal(String sql = select tech_situation_id, id_tec_xpn from bas_exposure limit 15;,Map<Integer, ImmutableSqlParameter> params = {{}}, StatementType statementType = {QUERY})
+
+17:36:37.480 [ForkJoinPool.commonPool-worker-1] DEBUG com.databricks.jdbc.core.DatabricksSession -- public DatabricksClient getDatabricksClient()
+
+17:36:37.480 [ForkJoinPool.commonPool-worker-1] DEBUG com.databricks.jdbc.core.DatabricksSession -- public String getWarehouseId()
+
+17:36:37.480 [ForkJoinPool.commonPool-worker-1] DEBUG com.databricks.jdbc.client.impl.sdk.DatabricksSdkClient -- public DatabricksResultSet executeStatement(String sql = select tech_situation_id, id_tec_xpn from bas_exposure limit 15;, compute resource = SQL Warehouse with warehouse ID {48b81421ef66e6f0}, Map<Integer, ImmutableSqlParameter> parameters, StatementType statementType = QUERY, IDatabricksSession session)
+
+17:36:37.480 [ForkJoinPool.commonPool-worker-1] DEBUG com.databricks.jdbc.core.DatabricksStatement -- public int getMaxRows()
+
+17:36:37.480 [ForkJoinPool.commonPool-worker-1] DEBUG com.databricks.jdbc.core.DatabricksSession -- public String getSessionId()
+
+17:36:37.480 [ForkJoinPool.commonPool-worker-1] DEBUG com.databricks.jdbc.core.DatabricksSession -- public String getWarehouseId()
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: default
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection request: [route: {s}->https://dbc-f4602dd9-4a15.aws.group.socgen:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 100]
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection leased: [id: 0][route: {s}->https://dbc-f4602dd9-4a15.aws.group.socgen:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 100]
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection -- http-outgoing-0: set socket timeout to 0
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection -- http-outgoing-0: set socket timeout to 300000
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.impl.execchain.MainClientExec -- Executing request POST /api/2.0/sql/statements/ HTTP/1.1
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.impl.execchain.MainClientExec -- Proxy auth state: UNCHALLENGED
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.headers -- http-outgoing-0 >> POST /api/2.0/sql/statements/ HTTP/1.1
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.headers -- http-outgoing-0 >> Authorization: Bearer <OMITTED>
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.headers -- http-outgoing-0 >> Accept: application/json
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.headers -- http-outgoing-0 >> User-Agent: DatabricksJDBCDriverOSS/0.0.0 databricks-sdk-java/0.19.0 jvm/17 os/windows Java/SQLExecHttpClient/HC auth/pat
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.headers -- http-outgoing-0 >> Content-Type: application/json
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.headers -- http-outgoing-0 >> Content-Length: 314
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.headers -- http-outgoing-0 >> Host: dbc-f4602dd9-4a15.aws.group.socgen:443
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.headers -- http-outgoing-0 >> Connection: Keep-Alive
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.headers -- http-outgoing-0 >> Accept-Encoding: gzip,deflate
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.wire -- http-outgoing-0 >> "POST /api/2.0/sql/statements/ HTTP/1.1[\r][\n]"
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.wire -- http-outgoing-0 >> "Authorization: Bearer <OMITTED>[\r][\n]"
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.wire -- http-outgoing-0 >> "Accept: application/json[\r][\n]"
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.wire -- http-outgoing-0 >> "User-Agent: DatabricksJDBCDriverOSS/0.0.0 databricks-sdk-java/0.19.0 jvm/17 os/windows Java/SQLExecHttpClient/HC auth/pat[\r][\n]"
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.wire -- http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.wire -- http-outgoing-0 >> "Content-Length: 314[\r][\n]"
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.wire -- http-outgoing-0 >> "Host: dbc-f4602dd9-4a15.aws.group.socgen:443[\r][\n]"
+
+17:36:37.483 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.wire -- http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+
+17:36:37.484 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.wire -- http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+
+17:36:37.484 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.wire -- http-outgoing-0 >> "[\r][\n]"
+
+17:36:37.484 [ForkJoinPool.commonPool-worker-1] DEBUG org.apache.http.wire -- http-outgoing-0 >> "{"statement":"select tech_situation_id, id_tec_xpn from bas_exposure limit 15;","warehouse_id":"48b81421ef66e6f0","session_id":"01eeda45-5e75-18a5-afb8-08fc89ae92ad","disposition":"EXTERNAL_LINKS","format":"ARROW_STREAM","on_wait_timeout":"CONTINUE","wait_timeout":"10s","parameters":[],"compression_codec":"NONE"}"
+
+17:36:37.485 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator -- Connection established 192.30.39.147:50100<->192.67.129.20:8080
+
+17:36:37.485 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.headers -- http-outgoing-1 >> CONNECT cfx-dev-root-bucket-databricks.s3.eu-west-1.amazonaws.com:443 HTTP/1.1
+
+17:36:37.486 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.headers -- http-outgoing-1 >> Host: cfx-dev-root-bucket-databricks.s3.eu-west-1.amazonaws.com
+
+17:36:37.486 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.headers -- http-outgoing-1 >> User-Agent: jdbc/databricks
+
+17:36:37.486 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.wire -- http-outgoing-1 >> "CONNECT cfx-dev-root-bucket-databricks.s3.eu-west-1.amazonaws.com:443 HTTP/1.1[\r][\n]"
+
+17:36:37.486 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.wire -- http-outgoing-1 >> "Host: cfx-dev-root-bucket-databricks.s3.eu-west-1.amazonaws.com[\r][\n]"
+
+17:36:37.486 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.wire -- http-outgoing-1 >> "User-Agent: jdbc/databricks[\r][\n]"
+
+17:36:37.486 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.wire -- http-outgoing-1 >> "[\r][\n]"
+
+17:36:37.495 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.wire -- http-outgoing-1 << "HTTP/1.1 407 authenticationrequired[\r][\n]"
+
+17:36:37.495 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.wire -- http-outgoing-1 << "Date: Mon, 04 Mar 2024 16:36:37 GMT[\r][\n]"
+
+17:36:37.495 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.wire -- http-outgoing-1 << "Content-Type: text/html[\r][\n]"
+
+17:36:37.495 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.wire -- http-outgoing-1 << "Cache-Control: no-cache[\r][\n]"
+
+17:36:37.495 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.wire -- http-outgoing-1 << "Content-Length: 9549[\r][\n]"
+
+17:36:37.495 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.wire -- http-outgoing-1 << "X-Frame-Options: deny[\r][\n]"
+
+17:36:37.495 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.wire -- http-outgoing-1 << "Proxy-Connection: Keep-Alive[\r][\n]"
+
+17:36:37.495 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.wire -- http-outgoing-1 << "Proxy-Authenticate: Negotiate[\r][\n]"
+
+17:36:37.495 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.wire -- http-outgoing-1 << "Proxy-Authenticate: NTLM[\r][\n]"
+
+17:36:37.495 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.wire -- http-outgoing-1 << "Proxy-Authenticate: Basic realm="McAfee Web Gateway"[\r][\n]"
+
+17:36:37.495 [databricks-jdbc-chunks-downloader-1] DEBUG org.apache.http.wire -- http-outgoing-1 << "[\r][\n]"
